@@ -21,6 +21,8 @@ for i in range(amount):
 #print(l)
 
 with open('result.txt', 'w') as f:
-    phrase = (f'You have input this amount of numbers to be generated: {amount}')
+    phrase = (f'You have input this amount of numbers to be generated: {amount}\n')
     f.write(phrase)
-    f.write()
+    f.write(f"Generated numbers: {l}\n")
+    f.write(f"Sorted numbers: {bubble_sort(l)}\n")
+
