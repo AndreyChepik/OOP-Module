@@ -1,0 +1,1 @@
+You have input this amount of numbers to be generated: 50
